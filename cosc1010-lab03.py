@@ -1,14 +1,9 @@
-# Your Name Here
+# Daniel Keuning
 # UWYO COSC 1010
 # Submission Date
 # Lab 03 
-# Lab Section: 
+# Lab Section: 16
 # Sources, people worked with, help given to: 
-# your
-# comments
-# here
-
-
 
 # This is your second lab section. It will primarily be based on the Introducing Lists lecture, reference it if you need
 # Complete all sections of this assignment 
@@ -18,12 +13,14 @@ print("Part One-----------------------------------------------------------------
 #We are going to start with the basics. Declare a list  states that contains the elements: Wyoming, Colorado, Montana in that order 
 #Note this is the ONLY point where you need to declare the states list
 
+states = [Wyoming, Colorado, Montana]
 
 
 #print the entire list
-
+print(states)
 
 #now print the first element in the list
+print(states[1])
 
 
 #Print the last element using the syntax shown in class to access the final element (hint, think negatives)
