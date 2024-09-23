@@ -13,21 +13,22 @@ print("Part One-----------------------------------------------------------------
 #We are going to start with the basics. Declare a list  states that contains the elements: Wyoming, Colorado, Montana in that order 
 #Note this is the ONLY point where you need to declare the states list
 
-states = [Wyoming, Colorado, Montana]
+states = ['Wyoming', 'Colorado', 'Montana']
 
 
 #print the entire list
 print(states)
 
 #now print the first element in the list
-print(states[1])
+print(states[0])
 
 
 #Print the last element using the syntax shown in class to access the final element (hint, think negatives)
+print(states[-1])
 
 
 #Using an F-string to access the first and second element print the string "COLORADO is south of WYOMING", matching the casing provided
-
+print(f'{states[1]} is south of {states[0]}')
 
 
 
